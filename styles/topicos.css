@@ -1,0 +1,33 @@
+.topicos{
+    background-color: black;
+    height: 280px;
+}
+
+.topicos_botoes_link{
+    font-family: var(--fonte);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    background: var(--corsecundaria--);
+    color: var(--corbranca--);
+    padding: 10px 16px 10px 16px;
+    text-decoration: none;
+}
+
+.topicos_titulo{
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: var(--corbranca--);
+    padding: 1em;
+}
+
+.topicos_botoes_prim, .topicos_botoes_meio, .topicos_botoes_fim{
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 0px 10px;
+}
+
+

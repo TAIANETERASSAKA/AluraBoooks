@@ -1,0 +1,43 @@
+.carrossel_titulo{
+    font-family: var(--fonte);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    color: var(--corsecundaria--);
+    padding: 1em 0 0.5em 0;
+    background-color: var(--corbranca--);
+
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    display: none;  /*fazer a setas desaparecer*/
+}
+
+.swiper-pagination{
+    position: initial;
+    padding: 0.7em 0em;
+}
+
+.swiper-scrollbar{
+    display: none;  /*sumir com a barra de rolagem*/
+}
+
+@media screen and (min-width: 1024px) {
+    .swiper-button-next, .swiper-button-prev{
+        display: flex;
+    }
+
+    .swiper{
+        margin: 5em ;
+    }
+
+    .carrossel_titulo{
+        padding: 2em 3em 0.65em 0em;
+    }
+
+}
